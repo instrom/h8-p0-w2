@@ -1,0 +1,48 @@
+Newton Second Law
+
+
+STORE “F” without any value
+STORE “m” equal to 600
+STORE “a” equal to 2
+
+CALCULATE “m” multiplied by “a” 
+SET “F” as calculation result
+
+DISPLAY “F”
+
+
+Tahun Kabisat
+
+STORE “year” with any value
+
+IF “year” mod 4 = 0 AND “year” mod 100 != 0
+	ELSE IF “year” mod 4 = 0 
+		AND “year” mod 100 = 0 
+			AND “year” mod 400 = 0,
+
+THEN DISPLAY “Tahun Kabisat”,
+	ELSE DISPLAY “Bukan Tahun Kabisat”
+
+
+
+Laundry Day
+
+STORE “clothestobewashed” with any value
+WHILE “clothestobewashed” < 20
+	ADD “clothestobewashed” by 1
+DISPLAY “startingmachinewash” 
+
+
+Periksa Kuku
+
+STORE “kukusiswa” with any value
+WHILE “kukusiswa” < 40
+	ADD “kukusiswa” by 1
+DISPLAY “kukusiswa”
+
+STORE “kukupendek” with “ ‘kukusiswa’ mod 2 === 0”
+
+IF “ ‘kukusiswa’ mod 2 = 0”
+	THEN DISPLAY “Pujian dari Guru”
+ELSE
+	DISPLAY “Hukuman dari Guru”
