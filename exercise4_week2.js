@@ -1,5 +1,5 @@
 var tanggal = 13;
-var bulan = 1;
+var bulan = 0;
 var tahun = 1996;
 
 switch (bulan) {
@@ -15,5 +15,5 @@ switch (bulan) {
     case 10: { console.log(tanggal + ' October ' + tahun); break;}
     case 11: { console.log(tanggal + ' November ' + tahun); break;}
     case 12: { console.log(tanggal + ' December ' + tahun); break;}
-    default: { console.log('Silakan tulis tanggal dan bulan yang benar'); }
+    default: { console.log('Silakan tulis tanggal, bulan dan tahun yang benar!'); }
 }
