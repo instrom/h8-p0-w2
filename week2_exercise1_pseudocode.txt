@@ -40,9 +40,12 @@ WHILE “kukusiswa” < 40
 	ADD “kukusiswa” by 1
 DISPLAY “kukusiswa”
 
-STORE “kukupendek” with “ ‘kukusiswa’ mod 2 === 0”
+"Kukusiswa" panjang 
 
-IF “ ‘kukusiswa’ mod 2 = 0”
+STORE “kukupendek” with “kukusiswa mod 2 === 0”
+STORE "kukupanjang" with "kukusiswa mod 2 not equal to 0"
+
+IF “kukusiswa mod 2 = 0”
 	THEN DISPLAY “Pujian dari Guru”
 ELSE
 	DISPLAY “Hukuman dari Guru”

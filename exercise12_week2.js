@@ -1,7 +1,7 @@
 function konversiMenit(menit) {
     var minutes = menit % 60;
     if (minutes < 10) {
-        minutes += "0"
+        minutes = "0" + minutes;
     }
     var hour = Math.floor(menit/60);
     return hour + ":" + minutes;
